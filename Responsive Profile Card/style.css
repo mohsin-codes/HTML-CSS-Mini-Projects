@@ -1,0 +1,115 @@
+body{
+    height: 100%;
+    min-height: 100vh;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    border: 0px solid black;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#top-part{
+    background-color: #3f72ec;
+    height: 120px;
+    border-radius:20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-circle{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    border: 2px solid #0d46d9;
+    border-radius: 100%;
+}
+
+#kid-image{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+#bottom-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+#description{
+    text-align: center;
+}
+
+#description-name{
+    margin-bottom: 5px;
+}
+
+#description-profession{
+    margin-top: 5px;
+}
+
+#social-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-logo{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+
+button{
+    background-color: #3f72ec;
+    color: white;
+    margin: 10px 10px 0px 10px;
+    width: 120px;
+    height: 35px;
+    border: 0px;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: #0d46d9;
+}
+
+#interactions{
+    color: grey;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.interactions-icons{
+    margin: 0px 2px 0 0;
+    width: 15px;
+}
+
+.like{
+    margin: 0 2px 0 55px;
+}
+
+.share{
+    transform: rotateY(180deg);
+}
+
+.interactions-spacer{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: lightgray;
+}
